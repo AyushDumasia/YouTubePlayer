@@ -174,7 +174,6 @@ header{
     width: 95%;
     margin: 5px;
     height: 200px;
-
 }
 .add-para{
     padding-left: 5px;
@@ -224,4 +223,75 @@ header{
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #55555534; 
+}
+
+
+
+
+
+@media screen and  (min-width : 300px) and (max-width : 576px) {
+    .add-logo img{
+        padding-left: 6%;
+        width: 28%;
+    }
+    .main-nav{
+        display: none;
+    }
+
+    .main-content{
+        display: block;
+    }
+    .add-lines h2,p{
+        padding-left: 10px;
+        font-size: 12px;
+        padding-top: 2px;
+        font-weight: 100;
+    }
+    .add-lines h2{
+        font-size: 22px;
+        text-align: start;
+        padding-left: 10px;
+        font-weight: 400;
+    }
+    
+    .player-bar{
+        width: 100%;
+    }
+    .add-box{
+        display: flex;
+        width: 100%;
+        margin: 5px;
+        height: 100px;
+    }
+    .box-container{
+        margin-top: 5%;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* right: -20px; */
+        height: 100vh;
+        padding-left: 0;
+    }
+    .add-para{
+        padding-left: 5px;
+        border-radius:10px;
+    }
+    .add-para h4{
+        padding-left: 10px;
+        padding-top: 2px;
+        font-weight: 400;
+        font-size: 105%;
+    }
+    .add-para p{
+        /* padding-top: 10px; */
+        /* font-weight: 100; */
+        font-size: 70%;
+    }
+    
+    .add-box img{
+        width: 74%;
+        height: 80%;
+        border-radius:10px;
+    }
 }
