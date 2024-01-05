@@ -229,7 +229,7 @@ header{
 
 
 
-@media screen and  (min-width : 300px) and (max-width : 576px) {
+@media screen and  (min-width : 200px) and (max-width : 576px) {
     .add-logo img{
         padding-left: 6%;
         width: 28%;
